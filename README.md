@@ -38,10 +38,6 @@
 ![](https://github.com/VaIice/lease/assets/141003473/8cb6a2ad-6c02-4e40-ba04-03ef5f4f42f1)
 
 ---
-#### 사업소 정보 - 지도
-![](https://github.com/VaIice/lease/assets/141003473/b2e7f357-239b-4b7d-9d90-c1ad35433151)
-
----
 #### 검색
 ![](https://github.com/VaIice/lease/assets/141003473/364e9743-3456-41c6-a0df-07e1d5722b65)
 
