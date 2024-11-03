@@ -14,6 +14,8 @@ function Map() {
     const overlays = useRef([]);
     const openOverlays = useRef([false, false, false, false, false, false]);
     const prevCurrentPage = useRef(1);
+    const prevData = useRef([]);
+
     markers.current.forEach(marker => marker.setMap(null));
     markers.current = [];
 
@@ -58,7 +60,7 @@ function Map() {
             });
         });
 
-        if (currentPage !== prevCurrentPage.current) {
+        if (currentPage !== prevCurrentPage.current || data !== prevData.current) {
             let isCenter = false;
             for (let i = 0; i < 6; i++) {
                 if (data[(currentPage - 1) * 10 + i].위도 && data[(currentPage - 1) * 10 + i].경도) {
@@ -73,10 +75,10 @@ function Map() {
             openOverlays.current = [false, false, false, false, false, false];
         }     
         
-        prevCurrentPage.current = currentPage;        
+        prevCurrentPage.current = currentPage;      
+        prevData.current = data;      
 
         for (let i = 0; i < positions.length; i++) {
-            console.log('생성!');
             const content = document.createElement('div');
             content.innerHTML = positions[i].content;
 

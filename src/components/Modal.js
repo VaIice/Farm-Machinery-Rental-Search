@@ -4,7 +4,7 @@ function Modal({setModalState, data}) {
     }
 
     const searchMapFrom = () => {
-        window.open(`https://map.kakao.com/link/From/${data.사업소명},${data.위도},${data.경도}`);
+        window.open(`https://map.kakao.com/link/from/${data.사업소명},${data.위도},${data.경도}`);
     }
 
         return (

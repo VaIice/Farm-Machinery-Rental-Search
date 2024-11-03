@@ -1,16 +1,12 @@
-import { useNavigate } from 'react-router-dom';
-
 function Navbar() {
-    const navigate = useNavigate();
 
     const clickLogo = () => {
-        navigate('/');
-        window.location.replace("/")
+        window.location.reload();
     }
 
     return (
         <div>
-            <img className="logo" src="/logo.png" alt="Navigation Icon" onClick={clickLogo} />
+            <img className="logo" src={process.env.PUBLIC_URL + '/logo.png'} alt="Navigation Icon" onClick={clickLogo} />
         </div>
     )
 }
