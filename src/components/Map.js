@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef } from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import Modal from '../components/Modal';
+import { changeTextInput, initialData } from "../store/store";
 
 const { kakao } = window;
 
@@ -15,6 +16,7 @@ function Map() {
     const openOverlays = useRef([false, false, false, false, false, false]);
     const prevCurrentPage = useRef(1);
     const prevData = useRef([]);
+    const dispatch = useDispatch();
 
     markers.current.forEach(marker => marker.setMap(null));
     markers.current = [];
@@ -23,6 +25,12 @@ function Map() {
     overlays.current = [];
 
     useEffect(() => {
+        if (!data || data.length === 0) {
+            alert('해당 지역에 데이터가 존재하지 않습니다.');
+            dispatch(initialData());
+            dispatch(changeTextInput(""));
+            return;
+        }
         if (!mapRef.current) {
             const container = document.getElementById('map');
                         const options = {
