@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+## 📝 농기계 임대 사업소 (1人 프로젝트)
+##### React + Redux toolkit을 활용한 농기계 임대 사업소 검색 사이트
+----
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🛠️ Tools and Technologies
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-%2361DAFB.svg?&style=for-the-badge&logo=react&logoColor=white)
+![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-%23834383.svg?style=for-the-badge&logo=redux&logoColor=white)
+![Figma](https://img.shields.io/badge/-Figma-F24E1E?logo=Figma&logoColor=white&style=for-the-badge)
+![Kakao Maps API](https://img.shields.io/badge/Kakao_API-%23FFEB00.svg?style=for-the-badge&logo=kakao&logoColor=black)
 
-## Available Scripts
+----
+## 🔑 핵심 기능
+- 농기계 임대 사업소 지도 표시
+- 위치 검색 및 상세 정보 제공
+- 카카오 지도 길찾기
 
-In the project directory, you can run:
+----
 
-### `npm start`
+## 🔍 담당 업무
+- 공공 데이터를 활용하여 사업소 정보를 정제하고 지도에 표시
+- 카카오 지도 API를 사용하여 길찾기 기능 구현
+- Redux Toolkit을 사용한 전역 상태 관리 구현
+----
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📅 프로젝트 기간
+2024.03-2024.04
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+----
+## 🎨 웹 디자인
+![](https://github.com/VaIice/lease/assets/141003473/ed6704a8-d785-4aa2-8c5a-57b84bcdcff4)
 
-### `npm test`
+----
+## 🎞 웹 페이지 화면
+#### 메인 화면
+![](https://github.com/VaIice/lease/assets/141003473/8cb6a2ad-6c02-4e40-ba04-03ef5f4f42f1)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
+#### 사업소 정보 - 지도
+![](https://github.com/VaIice/lease/assets/141003473/b2e7f357-239b-4b7d-9d90-c1ad35433151)
 
-### `npm run build`
+---
+#### 사업소 정보 - 모달창
+![](https://github.com/VaIice/lease/assets/141003473/cf303503-7dac-4e6d-b6ef-598a0aa3a6f6)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
+#### 페이지 이동
+![](https://github.com/VaIice/lease/assets/141003473/e3f35962-c90f-4d18-a41e-0f3f941ac03e)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
+#### 검색
+![](https://github.com/VaIice/lease/assets/141003473/364e9743-3456-41c6-a0df-07e1d5722b65)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+#### 카카오 지도 길찾기
+![](https://github.com/VaIice/lease/assets/141003473/23c58673-f1cc-44cf-a789-e544c21bb010)
