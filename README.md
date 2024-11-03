@@ -42,14 +42,6 @@
 ![](https://github.com/VaIice/lease/assets/141003473/b2e7f357-239b-4b7d-9d90-c1ad35433151)
 
 ---
-#### 사업소 정보 - 모달창
-![](https://github.com/VaIice/lease/assets/141003473/cf303503-7dac-4e6d-b6ef-598a0aa3a6f6)
-
----
-#### 페이지 이동
-![](https://github.com/VaIice/lease/assets/141003473/e3f35962-c90f-4d18-a41e-0f3f941ac03e)
-
----
 #### 검색
 ![](https://github.com/VaIice/lease/assets/141003473/364e9743-3456-41c6-a0df-07e1d5722b65)
 
