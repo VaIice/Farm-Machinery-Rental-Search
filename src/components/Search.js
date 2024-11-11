@@ -11,16 +11,20 @@ function Search() {
         dispatch(changeTextInput(e.target.value));
     }
 
-    const handleFilterData = () => {
+    const handleFilterData = (e) => {
+        if (!textInput) {
+            alert('검색어를 입력해주세요.');
+        }
+        e.preventDefault();
         dispatch(filterData(textInput));
         dispatch(initialCurrentPage());
     }
 
     return (
-        <div className="search-bar">
+        <form onSubmit={handleFilterData} className="search-bar">
             <input className="input-form" placeholder='검색어를 입력해주세요.' onChange={handleTextInput} value={textInput} />
             <FontAwesomeIcon onClick={handleFilterData} icon={faSearch} style={{fontSize: '1.6rem', padding: '0.2rem', color:'#3aad6d', cursor: 'pointer'}}/>
-        </div>
+        </form>
     )
 }
 
